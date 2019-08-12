@@ -7,10 +7,9 @@
     tools:context=".RockFragment"
     app:layout_constraintTop_toBottomOf="@+id/tablayout">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Rock Fragment" />
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rockRecycler"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
